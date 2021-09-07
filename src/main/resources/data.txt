@@ -3,7 +3,7 @@ INSERT INTO roles (id, name) VALUES
 (2, 'ROLE_USER');
 
 INSERT INTO users (id, email, password, first_Name, last_Name) VALUES
-(1, 'admin@gmail.com', '$2a$12$263xbqYphMDhLteAaLqV4uibT3kLEUJY9R39x4BSYfzliH.J4Ea2y', 'Bibin', 'Francis');
+(1, 'bibinfrancis404@outlook.com', '$2a$12$263xbqYphMDhLteAaLqV4uibT3kLEUJY9R39x4BSYfzliH.J4Ea2y', 'Bibin', 'Francis');
 
 insert into user_role(user_id, role_id) values
 (1,1),
