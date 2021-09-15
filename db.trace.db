@@ -449,3 +449,9 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection wa
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
 	... 81 more
+2021-09-15 13:52:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS_ROLES" not found; SQL statement:
+SELECT * FROM USERS_ROLES [42102-200]
+2021-09-15 13:52:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS_ROLE" not found; SQL statement:
+SELECT * FROM USERS_ROLE [42102-200]
